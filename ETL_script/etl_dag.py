@@ -6,7 +6,7 @@ from datetime import datetime
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 10, 15), # Change the date to the actual start date
+    'start_date': datetime(2023, 10, 18), # Change the date to the actual start date
     'retries': 1,
 }
 
@@ -53,13 +53,8 @@ def transform_data(**kwargs):
 def load_to_postgres(**kwargs):
     ti = kwargs['ti']
     transformed_data = ti.xcom_pull(task_ids='transform_data')
-    
-    # Create a list of tuples containing the parameters for the SQL query
-    # Each tuple should correspond to a row of data
     parameters_list = [tuple(row) for row in transformed_data.values]
-    
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn')
-    
     # Load data into PostgreSQL table
     pg_hook.insert_rows(
         table="etl",
