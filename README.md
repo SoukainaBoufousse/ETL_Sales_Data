@@ -5,6 +5,8 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
 - Docker and Docker Compose installed
 - Python 3.x
 ## Data Pipeline
+![etl_pipeline](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/066f6066-bc31-4977-9402-03988c4324e4)
+
 ## Repository Structure
 
 In this structure:
