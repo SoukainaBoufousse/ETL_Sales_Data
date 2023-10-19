@@ -32,7 +32,7 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
                       source character varying(45) NOT NULL
 
 
-);
+); ```
 ### Configuring Airflow
 1. Open the Airflow web UI.
 2. Go to the "Admin" section and select "Connections."
