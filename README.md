@@ -30,9 +30,8 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
                       Outlet_Type character varying(45) NOT NULL, 
                       Item_Outlet_Sale FLOAT NOT NULL, 
                       source character varying(45) NOT NULL
-
-
-); ```
+);
+```
 ### Configuring Airflow
 1. Open the Airflow web UI.
 2. Go to the "Admin" section and select "Connections."
