@@ -4,6 +4,7 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
 ## Prerequisites
 - Docker and Docker Compose installed
 - Python 3.x
+- Apache Airflow: Set up Apache Airflow, and ensure it's running in a Docker container
 - Postgresql (you can use [pgAdmin4](https://www.pgadmin.org/) or [DBeaver](https://dbeaver.io/) )
 ## Data Pipeline
 ![etl_pipeline](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/066f6066-bc31-4977-9402-03988c4324e4)
