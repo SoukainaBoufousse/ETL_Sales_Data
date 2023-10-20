@@ -39,7 +39,7 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
 4. Set the connection type to "PostgreSQL."
 5. Fill in the required connection details (host, port, schema, login, password).
 
-![airflow](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/be78f3fa-b62c-4596-9930-bed7c934e974)
+![](images/airflow.png)
 
 Once the PostgreSQL connection is properly configured, you can trigger the Airflow DAG, and it will smoothly commence the ETL process.
 
