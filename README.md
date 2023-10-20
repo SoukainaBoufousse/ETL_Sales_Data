@@ -7,7 +7,7 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
 - Apache Airflow: Set up Apache Airflow, and ensure it's running in a Docker container
 - Postgresql (you can use [pgAdmin4](https://www.pgadmin.org/) or [DBeaver](https://dbeaver.io/) )
 ## Data Pipeline
-![etl_pipeline](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/066f6066-bc31-4977-9402-03988c4324e4)
+![](images/etl_pipeline.png)
 
 
 ## Database Setup and Connection
@@ -43,11 +43,11 @@ This repository contains a mini project demonstrating an ETL (Extract, Transform
 
 Once the PostgreSQL connection is properly configured, you can trigger the Airflow DAG, and it will smoothly commence the ETL process.
 
-![airflow_dag](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/7150dc20-76d9-4e66-8827-0706549544bd)
+![](images/airflow_dag.png)
 
 Following this, you will find the data successfully uploaded to your PostgreSQL database.
 
-![postgrestable1](https://github.com/SoukainaBoufousse/ETL_Sales_Data/assets/104233981/0685aba8-f614-4f9b-aff2-3e6e696b5e6d)
+![](images/postgrestable1.png)
 
 ## Repository Structure
 In this structure:
